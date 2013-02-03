@@ -1,6 +1,6 @@
 require 'formula'
 
-class Weechat04x < Formula
+class Weechat04X < Formula
   homepage 'http://www.weechat.org'
   url 'http://www.weechat.org/files/src/weechat-0.4.0.tar.bz2'
   sha1 'e4b891d9d3d68196f97d226f487c4a2382d59d99'
