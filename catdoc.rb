@@ -9,6 +9,8 @@ class Catdoc < Formula
     cause "The source uses undocumented behavior (decrementing null)."
   end
 
+  patch :DATA
+ 
   def install
     # catdoc configure says it respects --mandir=, but does not.
     ENV['man1dir'] = man1
