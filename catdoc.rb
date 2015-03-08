@@ -23,7 +23,6 @@ class Catdoc < Formula
   end
 end
 __END__
-
 diff --git a/src/fileutil.c b/src/fileutil.c
 index d902a6a..60667a4 100644
 --- a/src/fileutil.c
