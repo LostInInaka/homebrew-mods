@@ -29,7 +29,7 @@ diff --git a/src/fileutil.c b/src/fileutil.c
 index d902a6a..60667a4 100644
 --- a/src/fileutil.c
 +++ b/src/fileutil.c
-@@ -77,7 +77,6 @@ char *find_file(char *name, const char *path)
+@@ -77,7 +77,6 @@
         if (q) {
             if (!prepare_path_buf(path_buf,p,q)) continue;
         } else {
@@ -37,7 +37,7 @@ index d902a6a..60667a4 100644
             if (!prepare_path_buf(path_buf,p,p+strlen(p))) continue;
         }
         strcat(path_buf,dir_sep); /* always one char */
-@@ -87,6 +86,8 @@ char *find_file(char *name, const char *path)
+@@ -87,6 +86,8 @@
         if (access(path_buf,0)==0) {
             free(name); 
             return strdup(path_buf);
