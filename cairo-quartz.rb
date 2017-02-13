@@ -16,7 +16,7 @@ class CairoQuartz < Formula
   depends_on 'pkg-config' => :build
   depends_on 'xz'=> :build
 
-  depends_on :libpng
+  depends_on 'libpng'
   depends_on 'pixman'
   depends_on 'glib'
   depends_on 'freetype'
