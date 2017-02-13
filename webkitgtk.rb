@@ -3,7 +3,7 @@ require 'formula'
 class Webkitgtk < Formula
   homepage 'http://webkitgtk.org/'
   url 'http://webkitgtk.org/releases/webkitgtk-2.0.2.tar.xz'
-  sha1 '1e977150db1ac10df6f791be178f20e5cbf95a39'
+  sha256 'c3685032545eb4c23f3f56826817783a6963ad59bd7bbf806705059b3d8caeb2'
 
   depends_on :x11
   depends_on 'pkg-config' => :build
