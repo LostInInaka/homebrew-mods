@@ -3,7 +3,7 @@ require 'formula'
 class Texi2html < Formula
   homepage 'http://www.nongnu.org/texi2html/'
   url 'http://download-mirror.savannah.gnu.org/releases/texi2html/texi2html-1.82.tar.gz'
-  sha1 'e7bbe1197147566250abd5c456b94c8e37e0a81f'
+  sha256 '6c7c94a2d88ffe218a33e91118c2b039336cbe3f2f8b4e3a78e4fd1502072936'
 
   keg_only :provided_pre_mountain_lion
 
