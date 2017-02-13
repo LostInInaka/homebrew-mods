@@ -2,8 +2,8 @@ require 'formula'
 
 class Catdoc < Formula
   homepage 'http://wagner.pp.ru/~vitus/software/catdoc/'
-  url 'http://ftp.wagner.pp.ru/pub/catdoc/catdoc-0.94.2.tar.gz'
-  sha1 '50ce9d7cb24ad6b10a856c9c24183e2b0a11ca04'
+  url 'http://ftp.wagner.pp.ru/pub/catdoc/catdoc-0.95.tar.gz'
+  sha256 '514a84180352b6bf367c1d2499819dfa82b60d8c45777432fa643a5ed7d80796'
 
   fails_with :clang do
     cause "The source uses undocumented behavior (decrementing null)."
